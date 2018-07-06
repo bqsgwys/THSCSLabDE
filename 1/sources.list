@@ -1,0 +1,13 @@
+# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+deb httpsmirrors.tuna.tsinghua.edu.cnubuntu bionic main restricted universe multiverse
+# deb-src httpsmirrors.tuna.tsinghua.edu.cnubuntu bionic main restricted universe multiverse
+deb httpsmirrors.tuna.tsinghua.edu.cnubuntu bionic-updates main restricted universe multiverse
+# deb-src httpsmirrors.tuna.tsinghua.edu.cnubuntu bionic-updates main restricted universe multiverse
+deb httpsmirrors.tuna.tsinghua.edu.cnubuntu bionic-backports main restricted universe multiverse
+# deb-src httpsmirrors.tuna.tsinghua.edu.cnubuntu bionic-backports main restricted universe multiverse
+deb httpsmirrors.tuna.tsinghua.edu.cnubuntu bionic-security main restricted universe multiverse
+# deb-src httpsmirrors.tuna.tsinghua.edu.cnubuntu bionic-security main restricted universe multiverse
+
+# 预发布软件源，不建议启用
+# deb httpsmirrors.tuna.tsinghua.edu.cnubuntu bionic-proposed main restricted universe multiverse
+# deb-src httpsmirrors.tuna.tsinghua.edu.cnubuntu bionic-proposed main restricted universe multiverse
